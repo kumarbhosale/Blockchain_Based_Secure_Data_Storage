@@ -1,0 +1,134 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'truffle@next' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData truffle@next
+8 silly fetchNamedPackageData truffle
+9 silly mapToRegistry name truffle
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/truffle
+13 verbose request uri https://registry.npmjs.org/truffle
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 3:27:24 PM
+16 verbose request id b0b3d4372c647176
+17 verbose etag W/"d6a24b341daca43dbe8b375592c5495f"
+18 verbose lastModified Thu, 21 Feb 2019 22:13:28 GMT
+19 http request GET https://registry.npmjs.org/truffle
+20 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+21 info attempt registry request try #2 at 3:27:54 PM
+22 verbose etag W/"d6a24b341daca43dbe8b375592c5495f"
+23 verbose lastModified Thu, 21 Feb 2019 22:13:28 GMT
+24 http request GET https://registry.npmjs.org/truffle
+25 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+26 info attempt registry request try #3 at 3:29:14 PM
+27 verbose etag W/"d6a24b341daca43dbe8b375592c5495f"
+28 verbose lastModified Thu, 21 Feb 2019 22:13:28 GMT
+29 http request GET https://registry.npmjs.org/truffle
+30 silly get cb [ 304, undefined ]
+31 verbose etag https://registry.npmjs.org/truffle from cache
+32 verbose get saving truffle to /root/.npm/registry.npmjs.org/truffle/.cache.json
+33 silly install normalizeTree
+34 silly loadCurrentTree Finishing
+35 silly loadIdealTree Starting
+36 silly install loadIdealTree
+37 silly cloneCurrentTree Starting
+38 silly install cloneCurrentTreeToIdealTree
+39 silly cloneCurrentTree Finishing
+40 silly loadShrinkwrap Starting
+41 silly install loadShrinkwrap
+42 silly loadShrinkwrap Finishing
+43 silly loadAllDepsIntoIdealTree Starting
+44 silly install loadAllDepsIntoIdealTree
+45 silly resolveWithNewModule truffle@5.0.0-next.26 checking installable status
+46 silly cache add args [ 'truffle@next', null ]
+47 verbose cache add spec truffle@next
+48 silly cache add parsed spec Result {
+48 silly cache add   raw: 'truffle@next',
+48 silly cache add   scope: null,
+48 silly cache add   name: 'truffle',
+48 silly cache add   rawSpec: 'next',
+48 silly cache add   spec: 'next',
+48 silly cache add   type: 'tag' }
+49 silly addNamed truffle@next
+50 verbose addNamed "next" is being treated as a dist-tag for truffle
+51 info addNameTag [ 'truffle', 'next' ]
+52 silly mapToRegistry name truffle
+53 silly mapToRegistry using default registry
+54 silly mapToRegistry registry https://registry.npmjs.org/
+55 silly mapToRegistry uri https://registry.npmjs.org/truffle
+56 verbose addNameTag registry:https://registry.npmjs.org/truffle not in flight; fetching
+57 verbose get https://registry.npmjs.org/truffle not expired, no request
+58 silly addNameTag next cb for truffle with tag next
+59 silly addNamed truffle@5.0.0-next.26
+60 verbose addNamed "5.0.0-next.26" is a plain semver version for truffle
+61 silly mapToRegistry name truffle
+62 silly mapToRegistry using default registry
+63 silly mapToRegistry registry https://registry.npmjs.org/
+64 silly mapToRegistry uri https://registry.npmjs.org/truffle
+65 verbose addRemoteTarball https://registry.npmjs.org/truffle/-/truffle-5.0.0-next.26.tgz not in flight; adding
+66 verbose addRemoteTarball [ 'https://registry.npmjs.org/truffle/-/truffle-5.0.0-next.26.tgz',
+66 verbose addRemoteTarball   '890265b54e1f45f6330370bf9785a84642ba0dd8' ]
+67 info retry fetch attempt 1 at 3:29:36 PM
+68 info attempt registry request try #1 at 3:29:36 PM
+69 http fetch GET https://registry.npmjs.org/truffle/-/truffle-5.0.0-next.26.tgz
+70 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+71 info attempt registry request try #2 at 3:30:06 PM
+72 http fetch GET https://registry.npmjs.org/truffle/-/truffle-5.0.0-next.26.tgz
+73 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+74 info attempt registry request try #3 at 3:31:26 PM
+75 http fetch GET https://registry.npmjs.org/truffle/-/truffle-5.0.0-next.26.tgz
+76 error fetch failed https://registry.npmjs.org/truffle/-/truffle-5.0.0-next.26.tgz
+77 warn retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+78 info retry fetch attempt 2 at 3:31:56 PM
+79 info attempt registry request try #1 at 3:31:56 PM
+80 http fetch GET https://registry.npmjs.org/truffle/-/truffle-5.0.0-next.26.tgz
+81 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+82 info attempt registry request try #2 at 3:32:26 PM
+83 http fetch GET https://registry.npmjs.org/truffle/-/truffle-5.0.0-next.26.tgz
+84 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+85 info attempt registry request try #3 at 3:33:46 PM
+86 http fetch GET https://registry.npmjs.org/truffle/-/truffle-5.0.0-next.26.tgz
+87 error fetch failed https://registry.npmjs.org/truffle/-/truffle-5.0.0-next.26.tgz
+88 warn retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+89 info retry fetch attempt 3 at 3:35:06 PM
+90 info attempt registry request try #1 at 3:35:06 PM
+91 http fetch GET https://registry.npmjs.org/truffle/-/truffle-5.0.0-next.26.tgz
+92 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+93 info attempt registry request try #2 at 3:35:36 PM
+94 http fetch GET https://registry.npmjs.org/truffle/-/truffle-5.0.0-next.26.tgz
+95 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+96 info attempt registry request try #3 at 3:36:56 PM
+97 http fetch GET https://registry.npmjs.org/truffle/-/truffle-5.0.0-next.26.tgz
+98 error fetch failed https://registry.npmjs.org/truffle/-/truffle-5.0.0-next.26.tgz
+99 silly rollbackFailedOptional Starting
+100 silly rollbackFailedOptional Finishing
+101 silly runTopLevelLifecycles Starting
+102 silly runTopLevelLifecycles Finishing
+103 silly install printInstalled
+104 verbose stack Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+104 verbose stack     at errnoException (dns.js:50:10)
+104 verbose stack     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+105 verbose cwd /home/kumar/Desktop/ipfs_image_uploader-master
+106 error Linux 4.15.0-45-generic
+107 error argv "/usr/bin/node" "/usr/bin/npm" "install" "-g" "truffle@next"
+108 error node v8.10.0
+109 error npm  v3.5.2
+110 error code ENOTFOUND
+111 error errno ENOTFOUND
+112 error syscall getaddrinfo
+113 error network getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+114 error network This is most likely not a problem with npm itself
+114 error network and is related to network connectivity.
+114 error network In most cases you are behind a proxy or have bad network settings.
+114 error network
+114 error network If you are behind a proxy, please make sure that the
+114 error network 'proxy' config is set properly.  See: 'npm help config'
+115 verbose exit [ 1, true ]
